@@ -1,0 +1,79 @@
+body {
+  background-image: url('images/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: #121212;
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #555;
+  border-radius: 10px;
+  background-color: #292b3d;
+  color: #fff;
+  text-align: center;
+}
+
+.gender {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.gender label {
+  display: flex;
+  align-items: center;
+}
+
+.gender input[type="radio"] {
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px; 
+}
+
+.gender input[type="radio"]:checked + .checkmark {
+  background-color: #779b59; 
+}
+button {
+  background-color: #9bcd66;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #779b59;
+}
+
+.result {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #779b59;
+}
